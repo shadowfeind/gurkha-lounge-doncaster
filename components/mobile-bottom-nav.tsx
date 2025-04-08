@@ -35,17 +35,15 @@ export const MobileBottomNav = () => {
             <Link
               key={item.name}
               href={item.href}
-              className={`flex flex-col items-center justify-center py-3 flex-1 ${
+              className={`flex flex-col items-center justify-center pt-3 flex-1 ${
                 isActive
                   ? "text-amber-200"
                   : "text-white/80 hover:text-amber-200"
               }`}
             >
               <item.icon className="h-5 w-5 mb-1" />
-              <span className="text-xs font-medium">{item.name}</span>
-              {isActive && (
-                <span className="absolute top-0 left-1/2 -translate-x-1/2 h-0.5 w-6 bg-amber-200"></span>
-              )}
+              <span className="text-xs font-medium pb-3">{item.name}</span>
+              {isActive && <span className=" h-0.5 w-10 bg-amber-200 "></span>}
             </Link>
           );
         })}
