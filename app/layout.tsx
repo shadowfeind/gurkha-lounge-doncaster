@@ -4,6 +4,7 @@ import "./globals.css";
 import { MobileBottomNav } from "@/components/mobile-bottom-nav";
 import { SocialLinks } from "@/components/social";
 import { MobileCTA } from "@/components/mobile-cta";
+import Footer from "@/components/website/footer";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -35,6 +36,7 @@ export default function RootLayout({
           <SocialLinks />
           <MobileCTA />
           <MobileBottomNav />
+          <Footer />
         </>
       </body>
     </html>

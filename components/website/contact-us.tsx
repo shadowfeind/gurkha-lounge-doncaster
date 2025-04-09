@@ -1,0 +1,154 @@
+import { MapPin, Clock, Phone } from "lucide-react";
+import Decoration from "./decoration";
+
+export const ContactUs = () => {
+  return (
+    <section
+      id="contact"
+      className="py-16"
+      style={{ backgroundColor: "oklch(0.29 0.0185 248.47)" }}
+    >
+      <div className="container mx-auto px-4">
+        <div className="text-center mb-12">
+          <h2 className="text-3xl md:text-4xl font-bold mb-2 text-white">
+            Find Us
+          </h2>
+          <div className="w-24 h-1 bg-amber-500 mx-auto"></div>
+          <p className="text-gray-300 mt-4 max-w-2xl mx-auto">
+            Visit us today to experience the authentic taste of Nepalese and
+            Indian cuisine
+          </p>
+        </div>
+
+        <div className="grid md:grid-cols-2 gap-8 items-start">
+          {/* Map */}
+          <div className="rounded-xl overflow-hidden shadow-xl h-[400px] md:h-[500px] relative">
+            {/* This is a placeholder for the map - in a real implementation, you would use Google Maps or another map provider */}
+            <div className="absolute inset-0 bg-gray-200 flex items-center justify-center">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2367.7990261402384!2d-1.1242814!3d53.5218726!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48790de08c4c7e8d%3A0x9a4fce7c2d62cc0a!2s199%20Carr%20House%20Rd%2C%20Hyde%20Park%2C%20Doncaster%20DN4%205DP!5e0!3m2!1sen!2suk!4v1712669608037!5m2!1sen!2suk"
+                width="100%"
+                height="100%"
+                style={{ border: 0 }}
+                allowFullScreen={false}
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+              ></iframe>
+            </div>
+          </div>
+
+          {/* Contact Information */}
+          <div className="bg-white/10 backdrop-blur-sm rounded-xl p-8 shadow-xl">
+            <div className="space-y-8">
+              {/* Location */}
+              <div className="flex items-start">
+                <div className="h-12 w-12 rounded-full bg-amber-500/20 flex items-center justify-center flex-shrink-0">
+                  <MapPin className="h-6 w-6 text-amber-400" />
+                </div>
+                <div className="ml-4">
+                  <h4 className="text-xl font-semibold text-white mb-2">
+                    Location
+                  </h4>
+                  <p className="text-gray-300">
+                    199 Carr House Road, Doncaster, DN4 5DP
+                  </p>
+                </div>
+              </div>
+
+              {/* Open Hours */}
+              <div className="flex items-start">
+                <div className="h-12 w-12 rounded-full bg-amber-500/20 flex items-center justify-center flex-shrink-0">
+                  <Clock className="h-6 w-6 text-amber-400" />
+                </div>
+                <div className="ml-4">
+                  <h4 className="text-xl font-semibold text-white mb-2">
+                    Open Hours
+                  </h4>
+                  <div className="grid grid-cols-2 gap-x-4 gap-y-1">
+                    <p className="text-gray-300">Tuesday:</p>
+                    <p className="text-gray-300">17:00 - 22:20</p>
+                    <p className="text-gray-300">Wednesday:</p>
+                    <p className="text-gray-300">17:00 - 22:20</p>
+                    <p className="text-gray-300">Thursday:</p>
+                    <p className="text-gray-300">17:00 - 22:20</p>
+                    <p className="text-gray-300">Friday:</p>
+                    <p className="text-gray-300">17:00 - 22:20</p>
+                    <p className="text-gray-300">Saturday:</p>
+                    <p className="text-gray-300">17:00 - 22:20</p>
+                    <p className="text-gray-300">Sunday:</p>
+                    <p className="text-gray-300">17:00 - 22:00</p>
+                  </div>
+                </div>
+              </div>
+
+              {/* Delivery Hours */}
+              <div className="flex items-start">
+                <div className="h-12 w-12 rounded-full bg-amber-500/20 flex items-center justify-center flex-shrink-0">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    strokeWidth="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    className="h-6 w-6 text-amber-400"
+                  >
+                    <path d="M10 17h4V5H2v12h3" />
+                    <path d="M20 17h2v-3.34a4 4 0 0 0-1.17-2.83L19 9h-5" />
+                    <path d="M14 17h1" />
+                    <circle cx="7.5" cy="17.5" r="2.5" />
+                    <circle cx="17.5" cy="17.5" r="2.5" />
+                  </svg>
+                </div>
+                <div className="ml-4">
+                  <h4 className="text-xl font-semibold text-white mb-2">
+                    Delivery Hours
+                  </h4>
+                  <div className="grid grid-cols-2 gap-x-4 gap-y-1">
+                    <p className="text-gray-300">Tuesday:</p>
+                    <p className="text-gray-300">17:00 - 22:10</p>
+                    <p className="text-gray-300">Wednesday:</p>
+                    <p className="text-gray-300">17:00 - 22:10</p>
+                    <p className="text-gray-300">Thursday:</p>
+                    <p className="text-gray-300">17:00 - 22:10</p>
+                    <p className="text-gray-300">Friday:</p>
+                    <p className="text-gray-300">17:00 - 22:10</p>
+                    <p className="text-gray-300">Saturday:</p>
+                    <p className="text-gray-300">17:00 - 22:10</p>
+                    <p className="text-gray-300">Sunday:</p>
+                    <p className="text-gray-300">17:00 - 21:50</p>
+                  </div>
+                </div>
+              </div>
+
+              {/* Contact */}
+              <div className="flex items-start">
+                <div className="h-12 w-12 rounded-full bg-amber-500/20 flex items-center justify-center flex-shrink-0">
+                  <Phone className="h-6 w-6 text-amber-400" />
+                </div>
+                <div className="ml-4">
+                  <h4 className="text-xl font-semibold text-white mb-2">
+                    Contact
+                  </h4>
+                  <p className="text-gray-300">01302 366355</p>
+                  <a
+                    href="tel:01302366355"
+                    className="inline-block mt-2 px-4 py-2 bg-amber-500 text-white font-medium rounded-md hover:bg-amber-600 transition-colors"
+                  >
+                    Call Now
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <Decoration />
+    </section>
+  );
+};
+
+export default ContactUs;
