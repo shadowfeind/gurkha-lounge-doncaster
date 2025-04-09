@@ -22,7 +22,7 @@ export const AboutUs = () => {
           <div className="relative">
             <div className="relative h-[400px] md:h-[500px] rounded-lg overflow-hidden shadow-xl">
               <Image
-                src="/placeholder.svg?height=500&width=600"
+                src="/images/aloo.jpg"
                 alt="Inside Gurkha Lounge Restaurant"
                 fill
                 className="object-cover"
@@ -30,7 +30,7 @@ export const AboutUs = () => {
             </div>
             <div className="absolute -bottom-6 -right-6 w-48 h-48 rounded-lg overflow-hidden shadow-xl hidden md:block">
               <Image
-                src="/placeholder.svg?height=200&width=200"
+                src="/images/biryani.jpg"
                 alt="Traditional Nepalese Dish"
                 fill
                 className="object-cover"
@@ -38,7 +38,7 @@ export const AboutUs = () => {
             </div>
             <div className="absolute -top-6 -left-6 w-32 h-32 rounded-full overflow-hidden border-4 border-amber-500 shadow-xl hidden md:block">
               <Image
-                src="/placeholder.svg?height=150&width=150"
+                src="/images/momo.jpg"
                 alt="Spices"
                 fill
                 className="object-cover"
@@ -49,7 +49,7 @@ export const AboutUs = () => {
           {/* Right Column - Text Content */}
           <div className="space-y-6">
             <div className="inline-block px-4 py-1 bg-amber-500 rounded-full text-white text-sm font-medium mb-2">
-              Est. 2010
+              100% Authentic
             </div>
 
             <h3 className="text-2xl md:text-3xl font-bold text-white">
@@ -59,9 +59,9 @@ export const AboutUs = () => {
             <p className="text-gray-300">
               Gurkha Lounge was born from a passion to share the authentic
               flavors of Nepal and India with our community. Our journey began
-              when our founder, Chef Raj, brought his family recipes from the
-              foothills of the Himalayas to create a dining experience that
-              honors tradition while embracing innovation.
+              when our founder brought his family recipes from the foothills of
+              the Himalayas to create a dining experience that honors tradition
+              while embracing innovation.
             </p>
 
             <div className="border-l-4 border-amber-500 pl-4 italic text-amber-300">
