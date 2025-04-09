@@ -10,7 +10,7 @@ export const AboutUs = () => {
           <h2 className="text-3xl md:text-4xl font-bold mb-2 text-white">
             Our Story
           </h2>
-          <div className="w-24 h-1 bg-amber-500 mx-auto"></div>
+          <div className="w-24 h-1 bg-amber-300 mx-auto"></div>
           <p className="text-gray-300 mt-4 max-w-2xl mx-auto">
             Discover the authentic flavors and rich culinary heritage behind
             Gurkha Lounge

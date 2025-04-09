@@ -136,9 +136,12 @@ export const ContactUs = () => {
                   <p className="text-gray-300">01302 366355</p>
                   <a
                     href="tel:01302366355"
-                    className="inline-block mt-2 px-4 py-2 bg-amber-500 text-white font-medium rounded-md hover:bg-amber-600 transition-colors"
+                    className="flex items-center gap-2 bg-amber-300 text-black font-medium px-5 py-3 rounded-full shadow-lg hover:bg-amber-700 transition-colors mt-2"
                   >
-                    Call Now
+                    <div className="p-2 bg-white rounded-2xl">
+                      <Phone className="size-3" />
+                    </div>
+                    ORDER NOW
                   </a>
                 </div>
               </div>

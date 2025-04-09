@@ -90,12 +90,15 @@ export default function NavMenu() {
 
           {/* CTA Button Section */}
           <div className="w-1/4 flex justify-end">
-            <button className="flex items-center gap-2 bg-amber-300 text-black font-medium px-5 py-3 rounded-full shadow-lg hover:bg-amber-700 transition-colors">
+            <a
+              href="tel:01302366355"
+              className="flex items-center gap-2 bg-amber-300 text-black font-medium px-5 py-3 rounded-full shadow-lg hover:bg-amber-700 transition-colors"
+            >
               <div className="p-2 bg-white rounded-2xl">
                 <Phone className="size-3" />
               </div>
               ORDER NOW
-            </button>
+            </a>
           </div>
         </div>
       </div>

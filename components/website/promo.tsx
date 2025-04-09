@@ -58,9 +58,9 @@ export const PromoSection = () => {
                 </p>
                 <a
                   href="#menu"
-                  className="inline-block px-6 py-3 bg-amber-500 text-white font-medium rounded-full hover:bg-amber-600 transition-colors"
+                  className="inline-block px-6 py-3 bg-amber-300 text-black font-medium rounded-full hover:bg-amber-600 transition-colors"
                 >
-                  View Our Menu
+                  View Our Menu +
                 </a>
               </div>
             </div>

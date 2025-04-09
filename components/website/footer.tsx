@@ -1,5 +1,5 @@
 import Link from "next/link";
-import Image from "next/image";
+// import Image from "next/image";
 import { Facebook, Instagram, Twitter } from "lucide-react";
 
 export default function Footer() {
@@ -10,14 +10,15 @@ export default function Footer() {
           {/* Logo and About */}
           <div className="md:col-span-1">
             <div className="flex flex-col items-center md:items-start">
-              <Link href="/" className="mb-4">
-                <Image
+              <Link href="/" className="mb-4 font-bold text-2xl">
+                {/* <Image
                   src="/images/logo.png"
                   alt="Gurkha Lounge Logo"
                   width={180}
                   height={60}
                   className="invert"
-                />
+                /> */}
+                Gurkha Lounge
               </Link>
               <p className="text-gray-400 text-sm text-center md:text-left">
                 Authentic Nepalese and Indian cuisine in the heart of Doncaster.
