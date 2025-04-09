@@ -38,7 +38,7 @@ export default function HeroSection() {
       {/* Content */}
       <div className="relative z-10 flex h-full flex-col justify-center items-center text-center px-8 md:px-16 lg:px-24 bg-black/60">
         <div className="max-w-4xl mx-auto">
-          <h2 className="font-serif text-amber-200 text-xl md:text-2xl mb-2">
+          <h2 className="font-serif text-amber-300 text-xl md:text-2xl mb-2">
             Experience the finest flavors of Nepalese and Indian cuisine
           </h2>
 

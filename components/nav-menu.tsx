@@ -5,9 +5,28 @@ import Link from "next/link";
 import Image from "next/image";
 
 import { Phone } from "lucide-react";
+import { usePathname } from "next/navigation";
+import { cn } from "@/lib/utils";
+
+const navMenu = [
+  {
+    name: "Home",
+    href: "/",
+  },
+  {
+    name: "Menu",
+    href: "/menu",
+  },
+  {
+    name: "Contact",
+    href: "/contact",
+  },
+];
 
 export default function NavMenu() {
   const [scrolled, setScrolled] = useState(false);
+  const pathname = usePathname();
+  console.log(pathname);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -54,30 +73,24 @@ export default function NavMenu() {
           {/* Navigation Links - Centered */}
           <nav className="flex items-center justify-center w-2/4">
             <div className="hidden md:flex items-center space-x-10">
-              <Link
-                href="/"
-                className="text-base font-medium text-white hover:text-amber-300 transition-colors"
-              >
-                Home
-              </Link>
-              <Link
-                href="/menu"
-                className="text-base font-medium text-white hover:text-amber-300 transition-colors"
-              >
-                Menu
-              </Link>
-              <Link
-                href="/contact"
-                className="text-base font-medium text-white hover:text-amber-300 transition-colors"
-              >
-                Contact
-              </Link>
+              {navMenu.map((item) => (
+                <Link
+                  key={item.name}
+                  href={item.href}
+                  className={cn(
+                    "text-base font-medium text-white hover:text-amber-300 transition-colors",
+                    pathname === item.href ? "text-amber-300 underline" : ""
+                  )}
+                >
+                  {item.name}
+                </Link>
+              ))}
             </div>
           </nav>
 
           {/* CTA Button Section */}
           <div className="w-1/4 flex justify-end">
-            <button className="flex items-center gap-2 bg-amber-300 text-black font-medium px-5 py-3 rounded-full shadow-lg hover:bg-amber-300 transition-colors">
+            <button className="flex items-center gap-2 bg-amber-300 text-black font-medium px-5 py-3 rounded-full shadow-lg hover:bg-amber-700 transition-colors">
               <div className="p-2 bg-white rounded-2xl">
                 <Phone className="size-3" />
               </div>
