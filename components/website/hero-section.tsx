@@ -1,5 +1,8 @@
+"use client";
+
 import Image from "next/image";
 import Link from "next/link";
+import NavMenu from "../nav-menu";
 
 export default function HeroSection() {
   return (
@@ -15,8 +18,25 @@ export default function HeroSection() {
         />
       </div>
 
+      {/* Navigation Menu for desktop */}
+      <div className="hidden md:block">
+        <NavMenu />
+      </div>
+      {/* Navigation Menu for mobile */}
+      <div className="md:hidden">
+        <div className="w-full absolute top-0 z-20 pt-6 flex justify-center items-center">
+          <Link href="/" className="flex items-center">
+            <Image
+              src="/images/logo.png"
+              alt="Gurkha Lounge Logo"
+              width={140}
+              height={60}
+            />
+          </Link>
+        </div>
+      </div>
       {/* Content */}
-      <div className="relative z-10 flex h-full flex-col justify-center items-center text-center px-8 md:px-16 lg:px-24 bg-black opacity-85">
+      <div className="relative z-10 flex h-full flex-col justify-center items-center text-center px-8 md:px-16 lg:px-24 bg-black/60">
         <div className="max-w-4xl mx-auto">
           <h2 className="font-serif text-amber-200 text-xl md:text-2xl mb-2">
             Experience the finest flavors of Nepalese and Indian cuisine
@@ -27,7 +47,7 @@ export default function HeroSection() {
             Indian Cuisine
           </h1>
 
-          <p className="text-gray-200 text-base md:text-lg mb-10 max-w-xl">
+          <p className="text-gray-200 text-base md:text-lg mb-10 max-w-xl mx-auto">
             Experience the rich flavors of the Himalayas with our authentic
             Indian and Nepalese cuisine. Every dish is crafted with traditional
             recipes and fresh ingredients.
