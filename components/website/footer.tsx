@@ -48,17 +48,10 @@ export default function Footer() {
                   Menu
                 </Link>
               </li>
+
               <li>
                 <Link
-                  href="#about"
-                  className="text-gray-400 hover:text-amber-400 transition-colors"
-                >
-                  About Us
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href="#contact"
+                  href="/contact"
                   className="text-gray-400 hover:text-amber-400 transition-colors"
                 >
                   Contact

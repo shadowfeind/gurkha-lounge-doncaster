@@ -26,7 +26,6 @@ const navMenu = [
 export default function NavMenu() {
   const [scrolled, setScrolled] = useState(false);
   const pathname = usePathname();
-  console.log(pathname);
 
   useEffect(() => {
     const handleScroll = () => {

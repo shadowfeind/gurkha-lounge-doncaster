@@ -55,13 +55,13 @@ export default function HeroSection() {
 
           <div className="flex flex-wrap gap-4 justify-center">
             <Link
-              href="#discover"
+              href="/menu"
               className="bg-amber-300 hover:bg-amber-700 text-background px-6 py-3 rounded-full transition-colors"
             >
               View our menu +
             </Link>
             <Link
-              href="#menu"
+              href="tel:01302366355"
               className="bg-background hover:bg-gray-700 text-white px-6 py-3 rounded-full transition-colors"
             >
               Order takeaway +
