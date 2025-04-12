@@ -82,17 +82,17 @@ export default function HeroSection() {
           </motion.p>
 
           <motion.div
-            className="flex flex-wrap gap-4 justify-center"
+            className="flex flex-wrap gap-x-2 gap-y-6 md:gap-x-4 justify-center "
             initial={{ y: 30, opacity: 0 }}
             animate={{ y: 0, opacity: 1 }}
             transition={{ duration: 0.6, delay: 0.6 }}
           >
             <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
               <Link
-                href="/menu"
+                href="tel:07417450433"
                 className="bg-amber-300 hover:bg-amber-700 text-background px-6 py-3 rounded-full transition-colors"
               >
-                View our menu +
+                Book Now +
               </Link>
             </motion.div>
             <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
@@ -100,7 +100,7 @@ export default function HeroSection() {
                 href="tel:01302366355"
                 className="bg-background hover:bg-gray-700 text-white px-6 py-3 rounded-full transition-colors"
               >
-                Order takeaway +
+                Order Now +
               </Link>
             </motion.div>
           </motion.div>

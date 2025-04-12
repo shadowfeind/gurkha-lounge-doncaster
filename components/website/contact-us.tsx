@@ -259,6 +259,7 @@ export const ContactUs = () => {
                     Contact
                   </h4>
                   <p className="text-gray-300">01302 366355</p>
+                  <p className="text-gray-300">07417 450433</p>
                   <motion.a
                     href="tel:01302366355"
                     className="flex items-center gap-2 bg-amber-300 text-black font-medium px-5 py-3 rounded-full shadow-lg hover:bg-amber-700 transition-colors mt-2"

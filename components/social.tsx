@@ -14,7 +14,7 @@ export const SocialLinks = () => (
 const SocialIcon = ({ Icon }: { Icon: React.ElementType }) => (
   <a
     href="#"
-    className="h-10 w-10 rounded-full bg-black/50 backdrop-blur-sm border border-white/20 flex items-center justify-center text-white hover:text-amber-200 hover:border-amber-200 transition-colors"
+    className="h-10 w-10 rounded-full bg-black/50 backdrop-blur-sm border border-white/20 flex items-center justify-center text-white hover:text-amber-200 hover:border-amber-200 transition-colors opacity-70"
   >
     <Icon className="h-5 w-5" />
   </a>

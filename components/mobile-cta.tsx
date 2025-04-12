@@ -7,7 +7,7 @@ export const MobileCTA = () => {
     >
       <a
         href="tel:01302366355"
-        className="flex items-center gap-2 bg-amber-300 text-black font-medium px-5 py-3 rounded-full shadow-lg hover:bg-amber-300 transition-colors"
+        className="flex items-center gap-2 bg-amber-300 text-black  px-4 py-2 rounded-full shadow-lg hover:bg-amber-300 transition-colors"
       >
         <div className="p-2 bg-white rounded-2xl">
           <Phone className="size-3" />
