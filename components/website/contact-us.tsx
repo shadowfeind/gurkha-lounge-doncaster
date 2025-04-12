@@ -172,12 +172,14 @@ export const ContactUs = () => {
                     <p className="text-gray-300">17:00 - 22:20</p>
                     <p className="text-gray-300">Sunday:</p>
                     <p className="text-gray-300">17:00 - 22:00</p>
+                    <p className="text-gray-300">Monday:</p>
+                    <p className="text-gray-300">Closed</p>
                   </div>
                 </div>
               </motion.div>
 
               {/* Delivery Hours */}
-              <motion.div
+              {/* <motion.div
                 className="flex items-start"
                 custom={2}
                 variants={contactItemVariants}
@@ -232,7 +234,7 @@ export const ContactUs = () => {
                     <p className="text-gray-300">17:00 - 21:50</p>
                   </div>
                 </div>
-              </motion.div>
+              </motion.div> */}
 
               {/* Contact */}
               <motion.div
@@ -258,8 +260,8 @@ export const ContactUs = () => {
                   <h4 className="text-xl font-semibold text-white mb-2">
                     Contact
                   </h4>
-                  <p className="text-gray-300">01302 366355</p>
-                  <p className="text-gray-300">07417 450433</p>
+                  <p className="text-gray-300">01302 366355 - for order</p>
+                  <p className="text-gray-300">07417 450433 - for booking</p>
                   <motion.a
                     href="tel:01302366355"
                     className="flex items-center gap-2 bg-amber-300 text-black font-medium px-5 py-3 rounded-full shadow-lg hover:bg-amber-700 transition-colors mt-2"

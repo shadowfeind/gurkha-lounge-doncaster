@@ -76,7 +76,7 @@ export const AboutUs = () => {
             variants={itemVariants}
           >
             Discover the authentic flavors and rich culinary heritage behind
-            Gurkha Lounge
+            Gurkha Lounge Doncaster.
           </motion.p>
         </motion.div>
 
@@ -158,11 +158,11 @@ export const AboutUs = () => {
             </motion.h3>
 
             <motion.p className="text-gray-300" variants={itemVariants}>
-              Gurkha Lounge was born from a passion to share the authentic
-              flavors of Nepal and India with our community. Our journey began
-              when our founder brought his family recipes from the foothills of
-              the Himalayas to create a dining experience that honors tradition
-              while embracing innovation.
+              Gurkha Lounge Doncaster was born from a passion to share the
+              authentic flavors of Nepal and India with our community. Our
+              journey began when our founder brought his family recipes from the
+              foothills of the Himalayas to create a dining experience that
+              honors tradition while embracing innovation.
             </motion.p>
 
             <motion.div
@@ -177,7 +177,7 @@ export const AboutUs = () => {
             </motion.div>
 
             <motion.p className="text-gray-300" variants={itemVariants}>
-              Every dish at Gurkha Lounge is crafted with care using
+              Every dish at Gurkha Lounge Doncaster is crafted with care using
               time-honored techniques and the freshest ingredients. Our spices
               are ground in-house daily, and our recipes maintain the perfect
               balance of flavors that make Himalayan cuisine so distinctive and

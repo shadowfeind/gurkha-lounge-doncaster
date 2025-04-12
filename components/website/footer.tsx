@@ -18,7 +18,7 @@ export default function Footer() {
                   height={60}
                   className="invert"
                 /> */}
-                Gurkha Lounge
+                Gurkha Lounge Doncaster
               </Link>
               <p className="text-gray-400 text-sm text-center md:text-left">
                 Authentic Nepalese and Indian cuisine in the heart of Doncaster.
@@ -114,7 +114,8 @@ export default function Footer() {
           </div>
           <div className="text-gray-500 text-sm text-center md:text-right">
             <p>
-              © {new Date().getFullYear()} Gurkha Lounge. All rights reserved.
+              © {new Date().getFullYear()} Gurkha Lounge Doncaster. All rights
+              reserved.
             </p>
             <p className="mt-1">Designed with ❤️ for authentic cuisine</p>
           </div>

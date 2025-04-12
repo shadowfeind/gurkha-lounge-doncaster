@@ -55,7 +55,7 @@ export default function NavMenu() {
           <div className="w-1/4">
             {scrolled ? (
               <span className="text-xl font-bold text-white">
-                Gurkha Lounge
+                Gurkha Lounge Doncaster
               </span>
             ) : (
               <Link href="/" className="flex items-center">
