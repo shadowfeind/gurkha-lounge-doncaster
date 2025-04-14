@@ -15,12 +15,12 @@ export const MobileBottomNav = () => {
     },
     {
       name: "Menu",
-      href: "/menu",
+      href: "/menu/",
       icon: Menu,
     },
     {
       name: "Contact",
-      href: "/contact",
+      href: "/contact/",
       icon: Phone,
     },
   ];

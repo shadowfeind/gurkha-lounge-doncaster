@@ -1,15 +1,25 @@
+"use client";
 import { Facebook, Instagram, Twitter, Youtube } from "lucide-react";
+import { usePathname } from "next/navigation";
 
-export const SocialLinks = () => (
-  <div
-    className={`fixed left-6 top-1/2 -translate-y-1/2 flex flex-col gap-3 z-50 transition-opacity duration-300}`}
-  >
-    <SocialIcon Icon={Facebook} />
-    <SocialIcon Icon={Instagram} />
-    <SocialIcon Icon={Twitter} />
-    <SocialIcon Icon={Youtube} />
-  </div>
-);
+export const SocialLinks = () => {
+  const pathname = usePathname();
+
+  if (pathname === "/menu/") {
+    return null;
+  } else {
+    return (
+      <div
+        className={`fixed left-6 top-1/2 -translate-y-1/2 flex flex-col gap-3 z-50 transition-opacity duration-300}`}
+      >
+        <SocialIcon Icon={Facebook} />
+        <SocialIcon Icon={Instagram} />
+        <SocialIcon Icon={Twitter} />
+        <SocialIcon Icon={Youtube} />
+      </div>
+    );
+  }
+};
 
 const SocialIcon = ({ Icon }: { Icon: React.ElementType }) => (
   <a

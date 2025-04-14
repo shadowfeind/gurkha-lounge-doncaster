@@ -8,7 +8,7 @@ export const chef: SubMenu[] = [
   },
   {
     title: "TIKKA MASALA CHICKEN/LAMB",
-    price: "9.00/10.00",
+    price: "9.00/10.50",
     description: "Grilled chicken or lamb in creamy, spiced and yoghurt sauce.",
   },
   {
@@ -30,7 +30,7 @@ export const chef: SubMenu[] = [
   },
   {
     title: "JALFREZI CHICKEN/LAMB",
-    price: "9.00/10.00",
+    price: "9.00/10.50",
     description:
       "Spicy chicken or lamb stir-fried with peppers, tomatoes, and onions.",
   },
@@ -47,33 +47,34 @@ export const chef: SubMenu[] = [
   {
     title: "VEGETABLE KARAHI",
     price: 9.0,
-    description: "Mixed vegetables stir-fried in spicy flavorful karahi sauce.",
+    description:
+      "Mixed vegetables stir-fried in spicy flavourful karahi sauce.",
   },
   {
     title: "PRAWN KARAHI",
     price: 11.0,
-    description: "Spicy prawns stir-fried with peppers, tomatoes and spices.",
+    description: "Spicy karahi stir-fried with peppers, tomatoes and spices.",
   },
   {
     title: "PRAWN JALFREZI",
-    price: 11.5,
+    price: 11.0,
     description: "Spicy prawn stir-fried with peppers, tomatoes and onions.",
   },
   {
     title: "KING PRAWN KARAHI",
     price: 13.0,
     description:
-      "Spicy king prawn stir-fried with tomatoes peppers and spices.",
+      "Spicy king prawn stir-fried with tomatoes, peppers and spices.",
   },
   {
     title: "KING PRAWN JALFREZI",
     price: 13.0,
     description:
-      "Spicy king prawn stir-fried with peppers tomatoes and onions.",
+      "Spicy king prawn stir-fried with peppers, tomatoes and onions.",
   },
   {
     title: "TANDOORI KING PRAWN MASALA",
-    price: 13.5,
+    price: 15.5,
     description: "Tandoori king prawns in a rich, spicy masala.",
   },
 ];

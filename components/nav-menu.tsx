@@ -15,17 +15,18 @@ const navMenu = [
   },
   {
     name: "Menu",
-    href: "/menu",
+    href: "/menu/",
   },
   {
     name: "Contact",
-    href: "/contact",
+    href: "/contact/",
   },
 ];
 
 export default function NavMenu() {
   const [scrolled, setScrolled] = useState(false);
   const pathname = usePathname();
+  console.log(pathname);
 
   useEffect(() => {
     const handleScroll = () => {
