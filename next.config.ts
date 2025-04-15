@@ -5,7 +5,7 @@ const nextConfig: NextConfig = {
   // Optional: Add trailing slash for better compatibility with static servers
   trailingSlash: true,
   // Optional: Change the output directory from 'out' to 'dist'
-  distDir: "dist",
+  distDir: "build",
   images: {
     unoptimized: true,
   },
