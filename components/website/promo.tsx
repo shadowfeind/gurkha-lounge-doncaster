@@ -4,6 +4,7 @@ import { Tag } from "lucide-react";
 import { motion } from "framer-motion";
 import { useInView } from "framer-motion";
 import { useRef } from "react";
+import Image from "next/image";
 
 export const PromoSection = () => {
   const sectionRef = useRef(null);
@@ -125,6 +126,13 @@ export const PromoSection = () => {
                 >
                   Experience the rich flavors of Nepal and India with our
                   special offers.
+                  <Image
+                    src="/images/orderonline.jpeg"
+                    alt="Feed me online"
+                    width={100}
+                    height={100}
+                    className="mt-4"
+                  />
                 </motion.p>
                 <motion.a
                   href="/menu"
