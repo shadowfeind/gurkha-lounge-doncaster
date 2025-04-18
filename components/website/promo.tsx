@@ -121,11 +121,16 @@ export const PromoSection = () => {
                   Taste the Authentic
                 </motion.h3>
                 <motion.p
-                  className="text-gray-600 mb-6"
+                  className="text-gray-600 mb-6 "
                   variants={itemVariants}
                 >
                   Experience the rich flavors of Nepal and India with our
                   special offers.
+                </motion.p>
+                <motion.div
+                  className="text-gray-600 mb-6 flex justify-center md:justify-start"
+                  variants={itemVariants}
+                >
                   <Image
                     src="/images/orderonline.jpeg"
                     alt="Feed me online"
@@ -133,7 +138,7 @@ export const PromoSection = () => {
                     height={100}
                     className="mt-4"
                   />
-                </motion.p>
+                </motion.div>
                 <motion.a
                   href="/menu"
                   className="inline-block px-6 py-3 bg-amber-300 text-black font-medium rounded-full hover:bg-amber-600 transition-colors"
